@@ -28,8 +28,9 @@
 /*-------------   Color Variable  --------------*/
 /*-------------Color include--------------*/
 /*-- Background color---*/
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Rufina:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /* line 56, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_color.scss */
+
 .white-bg {
   background: #ffffff;
 }
@@ -96,7 +97,7 @@
   color: #3589f1 !important;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Rufina", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -195,7 +196,7 @@
 /* 1. Theme default css */
 /* line 4, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -207,7 +208,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rufina", serif;
+  font-family: "Roboto", sans-serif;
   color: #000a2d;
   margin-top: 0px;
   font-style: normal;
@@ -217,8 +218,8 @@ h6 {
 
 /* line 23, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 p {
-  font-family: "Rubik", sans-serif;
-  color: #7a8290;
+  font-family: "Roboto", sans-serif;
+
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 15px;
@@ -501,10 +502,10 @@ hr {
   background: #348e25;
   border-radius: 5px;
   text-transform: uppercase;
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-size: 14px;
-  padding: 27px 44px;
+  padding: 25px 30px;
   -moz-user-select: none;
   cursor: pointer;
   display: inline-block;
@@ -522,6 +523,31 @@ hr {
   margin: 0;
 }
 
+
+.btn1 {
+  background: #348e25;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  padding: 18px 20px;
+  -moz-user-select: none;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 0;
+  margin-bottom: 0;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+  z-index: 1;
+  border: 0;
+  overflow: hidden;
+  margin: 0;
+}
 /* line 271, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .btn::before {
   content: "";
@@ -607,7 +633,7 @@ hr {
 .border-btn {
   border: 2px solid #3589f1;
   color: #3589f1;
-  font: "Rufina", serif;
+  font-family: "Roboto", sans-serif;
   background: none;
   border-radius: 5px;
   -moz-user-select: none;
@@ -989,7 +1015,7 @@ hr {
 
 /* line 492, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .mb-35 {
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 
 /* line 492, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
@@ -1707,7 +1733,7 @@ hr {
 
 /* line 506, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .pt-150 {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 /* line 506, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
@@ -1913,7 +1939,7 @@ hr {
 
 /* line 513, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .pb-150 {
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 /* line 513, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
@@ -2572,8 +2598,8 @@ hr {
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   /* line 714, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding2 {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 
@@ -2618,7 +2644,7 @@ hr {
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   /* line 739, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding3 {
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 150px;
   }
 }
@@ -2847,20 +2873,20 @@ hr {
 
 /* line 868, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .section-tittle span {
-  font-size: 16px;
+  font-size: 30px;
   font-weight: 500;
-  margin-bottom: 22px;
   color: #348e25;
   display: inline-block;
 }
 
 /* line 875, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .section-tittle h2 {
-  font-size: 40px;
+  font-size: 24px;
   display: block;
   color: #000a2d;
   font-weight: 700;
   line-height: 1.3;
+  padding-top: 8px;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3144,6 +3170,7 @@ hr {
   right: 0;
   left: 0;
   z-index: 9;
+  background-color: white;
 }
 
 /* line 147, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
@@ -3405,10 +3432,59 @@ hr {
 
 /* line 131, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
 .hero-area2 {
-  background-image: url(../img/hero/hero2.jpg);
+  background-image: url(../img/banner/contactus.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 560px;
+  min-height: 460px;
+  background-position:0px 100px;
+  max-width: 100%;
+  
+}
+.hero-about {
+  background-image: url(../img/banner/emi.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 460px;
+  background-position:0px 100px;
+  max-width: 100%;
+  
+}
+.hero-loan{
+  background-image: url(../img/banner/homeloan.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 460px;
+  background-position:0px 0px;
+  max-width: 100%;
+  
+}
+.hero-mortage{
+  background-image: url(../img/banner/mortage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 460px;
+  background-position:0px 0px;
+  max-width: 100%;
+  
+}
+
+.hero-msme{
+  background-image: url(../img/banner/msme.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 460px;
+  background-position:0px 120px;
+  max-width: 100%;
+  
+}
+.hero-aboutus{
+  background-image: url(../img/banner/aboutus.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 460px;
+  background-position:0px 70px;
+  max-width: 100%;
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3434,10 +3510,12 @@ hr {
 
 /* line 146, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
 .hero-area2 .hero-cap h2 {
-  color: #000a2d;
+  color: #fff;
   font-size: 55px;
   font-weight: 700;
   text-transform: capitalize;
+  text-shadow: 6px 7px #000000;
+  padding-top: 25px;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3585,7 +3663,7 @@ hr {
 @media only screen and (min-width: 1361px) and (max-width: 1500px) {
   /* line 257, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer {
-    margin-left: 7%;
+    margin-left:0;
   }
 }
 
@@ -3634,7 +3712,7 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 257, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer {
-    margin-left: 3%;
+    margin-left: 0%;
   }
 }
 
@@ -3712,12 +3790,12 @@ hr {
 }
 
 /* line 338, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
-.slider-footer .footer-wrapper .single-caption .caption {
+.slider-footer .footer-wrapper .single-caption .captionnew {
   padding-left: 20px;
 }
 
 /* line 340, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
-.slider-footer .footer-wrapper .single-caption .caption p {
+.slider-footer .footer-wrapper .single-caption .captionnew p {
   color: #fff;
   font-size: 18px;
   text-transform: uppercase;
@@ -3728,21 +3806,21 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 340, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
-  .slider-footer .footer-wrapper .single-caption .caption p {
+  .slider-footer .footer-wrapper .single-caption .captionnew p {
     font-size: 15px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 340, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
-  .slider-footer .footer-wrapper .single-caption .caption p {
+  .slider-footer .footer-wrapper .single-caption .captionnew p {
     font-size: 15px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 340, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
-  .slider-footer .footer-wrapper .single-caption .caption p {
+  .slider-footer .footer-wrapper .single-caption .captionnew p {
     font-size: 15px;
   }
 }
@@ -3755,10 +3833,10 @@ hr {
 /* line 4, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
 .about-low-area .about-caption p {
   font-size: 16px;
-  color: #64676c;
+ 
   line-height: 1.6;
-  margin-bottom: 35px;
-  padding-right: 50px;
+  margin-bottom: 25px;
+ text-align:justify;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3805,9 +3883,10 @@ hr {
 /* line 36, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
 .about-low-area .about-img .about-back-img {
   position: absolute;
-  top: -47px;
+  
   right: 0;
   z-index: 0;
+      max-width: 100%;
 }
 
 @media (max-width: 575px) {
@@ -3968,8 +4047,8 @@ hr {
 /* line 72, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_services_section.scss */
 .services-area .single-cat .cat-cap p {
   margin-bottom: 36px;
-  color: #57667e;
-  font-size: 14px;
+
+  font-size: 16px;
   -webkit-transition: all 0.2s ease-out 0s;
   -moz-transition: all 0.2s ease-out 0s;
   -ms-transition: all 0.2s ease-out 0s;
@@ -4121,13 +4200,11 @@ hr {
   position: relative;
   padding-left: 35px;
   margin-bottom: 18px;
-  cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #666666;
   font-size: 16px;
 }
 
@@ -4159,7 +4236,7 @@ hr {
 
 /* line 112, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
 .select-suport-items .single-items input:checked ~ .checkmark {
-  background-color: #014b85;
+  background-color: #348e25;
   border: 2px solid transparent;
 }
 
@@ -4701,7 +4778,7 @@ hr {
 
 /* line 122, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
 .t-bg {
-  background: #021a47;
+  background: #348e25;
 }
 
 /* line 125, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
@@ -4777,7 +4854,7 @@ hr {
   margin-bottom: 29px;
   font-weight: 500;
   text-transform: capitalize;
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* line 44, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_footer.scss */
@@ -5149,7 +5226,7 @@ hr {
 
 /* line 41, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
 .home-blog-area .single-blogs .blog-captions h2 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 25px;
   line-height: 1.5;
@@ -6855,7 +6932,7 @@ hr {
   color: #fff;
   font-weight: 900;
   margin-bottom: 0;
-  font-family: "Rufina", serif;
+  font-family: "Roboto", sans-serif;
   text-transform: capitalize;
 }
 
@@ -6923,7 +7000,7 @@ hr {
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Rubik", sans-serif;
+ font-family: "Roboto", sans-serif;
   font-weight: normal;
   width: 100% !important;
   /* height: 42px; */
@@ -6961,7 +7038,7 @@ hr {
   top: 3px;
   transition: all 0.15s ease-in-out;
   width: 5px;
-  font-family: fontawesome;
+  font-family: "Roboto", sans-serif;
   color: #919191;
   font-size: 15px;
 }
@@ -8428,7 +8505,7 @@ del {
   border: 1px solid #ccc;
   display: none;
   flex-direction: column;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   z-index: 9999;
 }
@@ -8469,4 +8546,111 @@ del {
   color: white;
   border: none;
   cursor: pointer;
+}
+.fa-home
+{
+  font-size: 50px;
+  color: #348e25;
+  padding-bottom: 10px;
+}
+.fa-building
+{
+  font-size: 50px;
+  color: #348e25;
+  padding-bottom: 10px;
+}
+.fa-university
+{
+  font-size: 50px;
+  color: #348e25;
+  padding-bottom: 10px;
+}
+.heading
+    {
+        color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-shadow: 6px 7px #000000;
+    padding-top: 25px;
+    }
+    .slider {
+  position: relative;
+  width: 100%;
+  max-width:100%;
+  height: 500px;
+  margin: 0px auto;
+  overflow: hidden;
+ 
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caption
+{
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px 30px;
+  font-size: 2em;
+  border-radius: 5px;
+  margin-top: 120px;
+}
+.captionnew
+{
+ 
+  color: #fff;
+  padding: 20px 30px;
+  font-size: 2em;
+  border-radius: 5px;
+}
+
+
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3em;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  user-select: none;
+  z-index: 10;
+}
+
+.nav.prev {
+  left: 10px;
+}
+
+.nav.next {
+  right: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .slider {
+    height: 300px;
+  }
+  .slide {
+    height: 300px;
+  }
+  .caption {
+    font-size: 1.2em;
+    padding: 10px 15px;
+
+
+  }
 }
